@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main_lab6.dir/src/main.cpp.o CMakeFiles/main_lab6.dir/src/bear.cpp.o CMakeFiles/main_lab6.dir/src/elf.cpp.o CMakeFiles/main_lab6.dir/src/npc.cpp.o CMakeFiles/main_lab6.dir/src/rogue.cpp.o -o main_lab6  -lpthread 

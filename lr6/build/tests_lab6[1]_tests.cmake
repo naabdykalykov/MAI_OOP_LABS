@@ -1,0 +1,7 @@
+add_test([=[npc_test.accept_test]=]  [==[/mnt/c/Users/abdyk/Desktop/долги/ООП/MAI_OOP_LABS/lr6/build/tests_lab6]==] [==[--gtest_filter=npc_test.accept_test]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[npc_test.accept_test]=]  PROPERTIES WORKING_DIRECTORY [==[/mnt/c/Users/abdyk/Desktop/долги/ООП/MAI_OOP_LABS/lr6/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[npc_test.is_close_test]=]  [==[/mnt/c/Users/abdyk/Desktop/долги/ООП/MAI_OOP_LABS/lr6/build/tests_lab6]==] [==[--gtest_filter=npc_test.is_close_test]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[npc_test.is_close_test]=]  PROPERTIES WORKING_DIRECTORY [==[/mnt/c/Users/abdyk/Desktop/долги/ООП/MAI_OOP_LABS/lr6/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[visitor_test.visit_test]=]  [==[/mnt/c/Users/abdyk/Desktop/долги/ООП/MAI_OOP_LABS/lr6/build/tests_lab6]==] [==[--gtest_filter=visitor_test.visit_test]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[visitor_test.visit_test]=]  PROPERTIES WORKING_DIRECTORY [==[/mnt/c/Users/abdyk/Desktop/долги/ООП/MAI_OOP_LABS/lr6/build]==] SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  tests_lab6_TESTS npc_test.accept_test npc_test.is_close_test visitor_test.visit_test)
