@@ -1,0 +1,26 @@
+cmake_minimum_required(VERSION 3.10)
+
+# Указываем имя проекта
+project(MyProject)
+
+# Устанавливаем стандарты C++
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# Включаем директорию с заголовочными файлами (если есть такая директория)
+include_directories(include)
+
+# Добавляем GoogleTest через подмодуль
+add_subdirectory(external/googletest)
+
+# Добавляем исполнимый файл для тестов
+add_executable(my_tests test/test.cpp src/four.cpp)
+
+# Линкуем с GoogleTest
+target_link_libraries(my_tests gtest gtest_main)
+
+# Включаем поддержку тестирования
+enable_testing()
+
+# Добавляем тесты
+add_test(NAME FourTests COMMAND my_tests)
