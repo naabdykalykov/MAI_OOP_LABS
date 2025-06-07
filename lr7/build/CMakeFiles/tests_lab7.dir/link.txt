@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests_lab7.dir/tests/tests.cpp.o CMakeFiles/tests_lab7.dir/src/bear.cpp.o CMakeFiles/tests_lab7.dir/src/elf.cpp.o CMakeFiles/tests_lab7.dir/src/npc.cpp.o CMakeFiles/tests_lab7.dir/src/rogue.cpp.o -o tests_lab7  lib/libgtest_main.a -lpthread lib/libgtest.a 
