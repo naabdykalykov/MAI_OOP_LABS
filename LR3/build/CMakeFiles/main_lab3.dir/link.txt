@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/main_lab3.dir/src/main.cpp.o -o main_lab3  libFigures.a 

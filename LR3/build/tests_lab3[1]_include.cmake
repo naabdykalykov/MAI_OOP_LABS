@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/abdyk/Desktop/долги/ООП/MAI_OOP_LABS/lr3/build/tests_lab3[1]_tests.cmake")
+  include("/mnt/c/Users/abdyk/Desktop/долги/ООП/MAI_OOP_LABS/lr3/build/tests_lab3[1]_tests.cmake")
+else()
+  add_test(tests_lab3_NOT_BUILT tests_lab3_NOT_BUILT)
+endif()
