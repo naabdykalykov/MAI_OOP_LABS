@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/tests_lab5.dir/tests/test.cpp.o CMakeFiles/tests_lab5.dir/src/CustomMemoryResource.cpp.o -o tests_lab5  lib/libgtest_main.a -lpthread lib/libgtest.a 
